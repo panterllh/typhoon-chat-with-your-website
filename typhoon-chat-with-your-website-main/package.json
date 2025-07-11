@@ -1,0 +1,41 @@
+{
+  "name": "chat-with-your-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^1.3.6",
+    "@heroicons/react": "^2.2.0",
+    "@langchain/openai": "^0.4.9",
+    "@types/react-syntax-highlighter": "^15.5.13",
+    "ai": "^4.2.10",
+    "axios": "^1.8.4",
+    "cheerio": "^1.0.0",
+    "framer-motion": "^12.6.2",
+    "langchain": "^0.3.19",
+    "next": "15.2.4",
+    "openai": "^4.91.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-hot-toast": "^2.5.2",
+    "react-icons": "^5.5.0",
+    "react-markdown": "^10.1.0",
+    "react-syntax-highlighter": "^5.8.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.1",
+    "@tailwindcss/postcss": "^4.0.17",
+    "@types/node": "^20.17.29",
+    "@types/react": "^19.0.12",
+    "@types/react-dom": "^19",
+    "eslint": "^9.23.0",
+    "eslint-config-next": "^15.2.2",
+    "tailwindcss": "^4.0.17",
+    "typescript": "^5"
+  }
+}
